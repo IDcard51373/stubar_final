@@ -54,25 +54,38 @@ public class Invitation {
 	}
 
 	public String getArticle() {
+		/**
+		 * 方法一：直接转换
+		 */
+
 //		String web_article=article.replace("/n","</br>");
-
-		String web_article = "";
-
-		if (article!=null) {
-			Pattern p = Pattern.compile(" ");
-			Matcher m = p.matcher(article);
-			web_article = m.replaceAll("&nbsp;");
-			System.out.println(web_article);
-		}
-
-		if (web_article!=null) {
-			Pattern p = Pattern.compile("\n");
-			Matcher m = p.matcher(web_article);
-			web_article = m.replaceAll("</br>");
-		}
-        System.out.println(web_article);
-
-		return web_article;
+		/**
+		 * 方法二：字符串转换
+		 */
+//		String web_article = "";
+//
+//		if (article!=null) {
+//			Pattern p = Pattern.compile(" ");
+//			Matcher m = p.matcher(article);
+//			web_article = m.replaceAll("&nbsp;");
+//			System.out.println(web_article);
+//		}
+//
+//		if (web_article!=null) {
+//			Pattern p = Pattern.compile("\n");
+//			Matcher m = p.matcher(web_article);
+//			web_article = m.replaceAll("</br>");
+//		}
+//        System.out.println(web_article);
+//
+//		return web_article;
+		/**
+		 * 方法三：显示时用pre转换
+		 */
+//		String web_article = "";
+//		web_article="<pre>"+article+"</pre>";
+//		System.out.println(web_article);
+		return article;
 	}
 
 	public void setArticle(String article) {

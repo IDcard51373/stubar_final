@@ -36,7 +36,15 @@
 	});
 </script>
 <link rel="alternate" type="application/rss+xml" title="学习 论坛" href="#" />
+	<Style>
+		pre{
 
+			white-space: pre-wrap; /* css-3 */
+			white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+			white-space: -o-pre-wrap; /* Opera 7 */
+			word-wrap: break-word; /* Internet Explorer 5.5+ */
+		}
+	</Style>
 </head>
 <body class="home-template">
 
@@ -106,7 +114,9 @@
 				</div>
 
 				<div class="post-content">
-					<p>${jspinvitation.getArticle()}</p>
+					<p><pre>
+							${jspinvitation.getArticle()}
+					</pre></p>
 				</div>
 
 				<footer class="post-footer clearfix">
