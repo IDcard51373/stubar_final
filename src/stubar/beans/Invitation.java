@@ -55,11 +55,19 @@ public class Invitation {
 
 	public String getArticle() {
 //		String web_article=article.replace("/n","</br>");
-		String temp = "";
+
 		String web_article = "";
+		String temp = "";
 		if (article!=null) {
-			Pattern p = Pattern.compile("\n");
+			Pattern p = Pattern.compile(" ");
 			Matcher m = p.matcher(article);
+			web_article = m.replaceAll("&nbsp;");
+			System.out.println(web_article);
+		}
+
+		if (web_article!=null) {
+			Pattern p = Pattern.compile("\n");
+			Matcher m = p.matcher(web_article);
 			temp = m.replaceAll("</br>");
 		}
 //		if (temp!=null) {
