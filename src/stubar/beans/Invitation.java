@@ -57,7 +57,7 @@ public class Invitation {
 //		String web_article=article.replace("/n","</br>");
 
 		String web_article = "";
-		String temp = "";
+
 		if (article!=null) {
 			Pattern p = Pattern.compile(" ");
 			Matcher m = p.matcher(article);
@@ -68,15 +68,11 @@ public class Invitation {
 		if (web_article!=null) {
 			Pattern p = Pattern.compile("\n");
 			Matcher m = p.matcher(web_article);
-			temp = m.replaceAll("</br>");
+			web_article = m.replaceAll("</br>");
 		}
-//		if (temp!=null) {
-//			Pattern p = Pattern.compile(" ");
-//			Matcher m = p.matcher(article);
-//			web_article = m.replaceAll("&nbsp;");
-//		}
+        System.out.println(web_article);
 
-		return temp;
+		return web_article;
 	}
 
 	public void setArticle(String article) {
