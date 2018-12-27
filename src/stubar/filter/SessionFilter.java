@@ -1,6 +1,6 @@
-package cn.edu360.filter;
+package stubar.filter;
 
-import cn.edu360.beans.User;
+import stubar.beans.User;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

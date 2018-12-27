@@ -1,7 +1,7 @@
-package cn.edu360.servlet;
+package stubar.servlet;
 
-import cn.edu360.beans.City;
-import cn.edu360.dao.CityDao;
+import stubar.beans.City;
+import stubar.dao.CityDao;
 import com.alibaba.fastjson.JSONObject;
 
 import javax.servlet.ServletException;

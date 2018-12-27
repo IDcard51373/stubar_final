@@ -1,4 +1,4 @@
-package cn.edu360.dbutils;
+package stubar.dbutils;
 
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -8,8 +8,6 @@ import java.beans.PropertyVetoException;
 
 /**
  * 通过数据库构建一个数据库连接池
- * @author ldq
- *
  */
 public class DBUtils {
 	

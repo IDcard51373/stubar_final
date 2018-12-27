@@ -1,7 +1,7 @@
-package cn.edu360.servlet;
+package stubar.servlet;
 
-import cn.edu360.beans.User;
-import cn.edu360.dao.UserDao;
+import stubar.beans.User;
+import stubar.dao.UserDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

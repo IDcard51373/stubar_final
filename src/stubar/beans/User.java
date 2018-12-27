@@ -1,4 +1,4 @@
-package cn.edu360.beans;
+package stubar.beans;
 
 public class User {
 	private int id;

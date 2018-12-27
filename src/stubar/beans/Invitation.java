@@ -1,4 +1,7 @@
-package cn.edu360.beans;
+package stubar.beans;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Invitation {
 	private int id;
@@ -51,7 +54,21 @@ public class Invitation {
 	}
 
 	public String getArticle() {
-		return article;
+//		String web_article=article.replace("/n","</br>");
+		String temp = "";
+		String web_article = "";
+		if (article!=null) {
+			Pattern p = Pattern.compile("\n");
+			Matcher m = p.matcher(article);
+			temp = m.replaceAll("</br>");
+		}
+//		if (temp!=null) {
+//			Pattern p = Pattern.compile(" ");
+//			Matcher m = p.matcher(article);
+//			web_article = m.replaceAll("&nbsp;");
+//		}
+
+		return temp;
 	}
 
 	public void setArticle(String article) {

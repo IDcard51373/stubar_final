@@ -106,7 +106,7 @@
 				</div>
 
 				<div class="post-content">
-					<p>${jspinvitation.article}</p>
+					<p>${jspinvitation.getArticle()}</p>
 				</div>
 
 				<footer class="post-footer clearfix">
@@ -217,28 +217,7 @@
 				</c:if>
 
 			</div>
-			<!-- start widget -->
-			<div class="widget">
-				<h4 class="title">最新文章</h4>
-				<div class="content recent-post">
-					<div class="recent-single-post">
-						<a href="/moving-to-node-js-v4-lts/" class="post-title">程序学习在程序设计方面的解释</a>
-						<div class="date">2016年7月26日</div>
-					</div>
-					<div class="recent-single-post">
-						<a
-							href="/ghost-zhuo-mian-ban-app-geng-xin-neng-gou-tong-shi-guan-li-duo-ge-ghost-bo-ke/"
-							class="post-title">学习论坛解释学习</a>
-						<div class="date">2016年4月28日</div>
-					</div>
-					<div class="recent-single-post">
-						<a href="/install-nodejs-of-latest-version-in-ubuntu-and-debian/"
-							class="post-title">为 Ubuntu 和 Debian 安装最新版本的 Node.js</a>
-						<div class="date">2016年3月23日</div>
-					</div>
-				</div>
-			</div>
-			<!-- end widget --> <!-- start widget --> <!-- end widget --> </aside>
+			</aside>
 
 		</div>
 	</div>

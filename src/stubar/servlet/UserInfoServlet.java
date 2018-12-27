@@ -1,12 +1,12 @@
-package cn.edu360.servlet;
+package stubar.servlet;
 
-import cn.edu360.beans.City;
-import cn.edu360.beans.Province;
-import cn.edu360.beans.User;
-import cn.edu360.beans.UserInfo;
-import cn.edu360.dao.CityDao;
-import cn.edu360.dao.ProvinceDao;
-import cn.edu360.dbutils.DBUtils;
+import stubar.beans.City;
+import stubar.beans.Province;
+import stubar.beans.User;
+import stubar.beans.UserInfo;
+import stubar.dao.CityDao;
+import stubar.dao.ProvinceDao;
+import stubar.dbutils.DBUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 

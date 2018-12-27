@@ -12,7 +12,7 @@
     <filter>
         <display-name>charsetFilter</display-name>
         <filter-name>charsetFilter</filter-name>
-        <filter-class>cn.edu360.filter.charsetFilter</filter-class>
+        <filter-class>stubar.filter.charsetFilter</filter-class>
         <init-param>
             <param-name>charset</param-name>
             <param-value>utf-8</param-value>
@@ -26,7 +26,7 @@
         <description>处理用户注册登录的Servlet</description>
         <display-name>userServlet</display-name>
         <servlet-name>userServlet</servlet-name>
-        <servlet-class>cn.edu360.servlet.UserServlet</servlet-class>
+        <servlet-class>stubar.servlet.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>userServlet</servlet-name>
@@ -36,7 +36,7 @@
         <description></description>
         <display-name>logoutServlet</display-name>
         <servlet-name>logoutServlet</servlet-name>
-        <servlet-class>cn.edu360.servlet.LogoutServlet</servlet-class>
+        <servlet-class>stubar.servlet.LogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>logoutServlet</servlet-name>
@@ -46,7 +46,7 @@
         <description></description>
         <display-name>userInfoServlet.do</display-name>
         <servlet-name>userInfoServlet.do</servlet-name>
-        <servlet-class>cn.edu360.servlet.UserInfoServlet</servlet-class>
+        <servlet-class>stubar.servlet.UserInfoServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>userInfoServlet.do</servlet-name>
@@ -56,7 +56,7 @@
         <description></description>
         <display-name>textServlet</display-name>
         <servlet-name>textServlet</servlet-name>
-        <servlet-class>cn.edu360.servlet.TextServlet</servlet-class>
+        <servlet-class>stubar.servlet.TextServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>textServlet</servlet-name>
@@ -66,7 +66,7 @@
         <description></description>
         <display-name>indexServlet</display-name>
         <servlet-name>indexServlet</servlet-name>
-        <servlet-class>cn.edu360.servlet.IndexServlet</servlet-class>
+        <servlet-class>stubar.servlet.IndexServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>indexServlet</servlet-name>
@@ -76,7 +76,7 @@
         <description></description>
         <display-name>cityAjax</display-name>
         <servlet-name>cityAjax</servlet-name>
-        <servlet-class>cn.edu360.servlet.CityAjax</servlet-class>
+        <servlet-class>stubar.servlet.CityAjax</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>cityAjax</servlet-name>

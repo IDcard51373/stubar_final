@@ -1,7 +1,7 @@
-package cn.edu360.dao;
+package stubar.dao;
 
-import cn.edu360.beans.Province;
-import cn.edu360.dbutils.DBUtils;
+import stubar.beans.Province;
+import stubar.dbutils.DBUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;

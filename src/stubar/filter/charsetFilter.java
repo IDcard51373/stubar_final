@@ -1,4 +1,4 @@
-package cn.edu360.filter;
+package stubar.filter;
 
 import javax.servlet.*;
 import java.io.IOException;

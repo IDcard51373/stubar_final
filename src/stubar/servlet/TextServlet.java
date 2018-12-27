@@ -1,9 +1,9 @@
-package cn.edu360.servlet;
+package stubar.servlet;
 
-import cn.edu360.beans.Invitation;
-import cn.edu360.beans.Review;
-import cn.edu360.beans.User;
-import cn.edu360.dbutils.DBUtils;
+import stubar.beans.Invitation;
+import stubar.beans.Review;
+import stubar.beans.User;
+import stubar.dbutils.DBUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;

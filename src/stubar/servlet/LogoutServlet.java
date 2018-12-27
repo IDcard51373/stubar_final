@@ -1,4 +1,4 @@
-package cn.edu360.servlet;
+package stubar.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

@@ -198,44 +198,7 @@
 						onclick="download()">Servlet Word文档</a>
 				</div>
 			</div>
-			<!-- end widget --> <!-- start tag cloud widget -->
-			<div class="widget">
-				<h4 class="title">标签云</h4>
-				<div class="content tag-cloud">
-					<a href="/tag/jquery/">jQuery</a> <a href="/tag/ghost-0-7-ban-ben/">Ghost
-						0.7 版本</a> <a href="/tag/opensource/">开源</a> <a
-						href="/tag/zhu-shou-han-shu/">助手函数</a> <a href="/tag/tag-cloud/">标签云</a>
-					<a href="/tag/navigation/">导航</a> <a href="/tag/customize-page/">自定义页面</a>
-					<a href="/tag/static-page/">静态页面</a> <a href="/tag/roon-io/">Roon.io</a>
-					<a href="/tag/configuration/">配置文件</a> <a href="/tag/upyun/">又拍云存储</a>
-					<a href="/tag/upload/">上传</a> <a href="/tag/handlebars/">Handlebars</a>
-					<a href="/tag/email/">邮件</a> <a href="/tag/shortcut/">快捷键</a> <a
-						href="/tag/yong-hu-zhi-nan/">用户指南</a> <a href="/tag/theme-market/">主题市场</a>
-					<a href="/tag/release/">新版本发布</a> <a href="/tag-cloud/">...</a>
-				</div>
-			</div>
-			<!-- end tag cloud widget --> <!-- start widget -->
-			<div class="widget">
-				<h4 class="title">最新文章</h4>
-				<div class="content recent-post">
-					<div class="recent-single-post">
-						<a href="/moving-to-node-js-v4-lts/" class="post-title">程序学习在程序设计方面的解释</a>
-						<div class="date">2016年7月26日</div>
-					</div>
-					<div class="recent-single-post">
-						<a
-							href="/ghost-zhuo-mian-ban-app-geng-xin-neng-gou-tong-shi-guan-li-duo-ge-ghost-bo-ke/"
-							class="post-title">学习论坛解释学习</a>
-						<div class="date">2016年4月28日</div>
-					</div>
-					<div class="recent-single-post">
-						<a href="/install-nodejs-of-latest-version-in-ubuntu-and-debian/"
-							class="post-title">为 Ubuntu 和 Debian 安装最新版本的 Node.js</a>
-						<div class="date">2016年3月23日</div>
-					</div>
-				</div>
-			</div>
-			<!-- end widget --> <!-- start widget --> <!-- end widget --> </aside>
+			<!-- end widget --> </aside>
 
 		</div>
 	</div>
